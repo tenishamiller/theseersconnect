@@ -1,0 +1,5 @@
+node_modules
+.git
+.vercel
+scripts
+mockup2.html

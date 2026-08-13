@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Take This Cup — The Seers Connect</title>
+<meta name="description" content="Take This Cup — a song written around June 17, 2023 during deliverance, and the story behind the lyric that offered God the cup of suffering." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --night: #05060e;
+    --ink: #e8e4d8;
+    --ink-dim: #b9b4a4;
+    --ink-faint: #7d7a6e;
+    --gold: #c9a96a;
+    --gold-soft: #a08a5c;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--night);
+    color: var(--ink);
+    font-family: "EB Garamond", Georgia, serif;
+    font-size: 20px;
+    line-height: 1.82;
+    overflow-x: hidden;
+  }
+
+  #sky {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .wrap {
+    position: relative;
+    z-index: 1;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 10vh 24px 14vh;
+  }
+
+  .back {
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: var(--gold-soft);
+    text-decoration: none;
+    margin-bottom: 48px;
+  }
+  .back:hover { color: var(--gold); }
+
+  .post-date {
+    font-size: 13px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-weight: 300;
+    font-size: clamp(36px, 5.5vw, 56px);
+    line-height: 1.15;
+    margin-bottom: 36px;
+  }
+
+  .player {
+    margin-bottom: 56px;
+    padding: 28px 24px 24px;
+    border: 1px solid rgba(232, 228, 216, 0.1);
+    background: rgba(10, 13, 29, 0.6);
+  }
+
+  .player audio {
+    display: block;
+    width: 100%;
+    margin-bottom: 18px;
+  }
+
+  .player-download {
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--gold-soft);
+    text-decoration: none;
+    border: 1px solid rgba(201, 169, 106, 0.35);
+    padding: 12px 18px;
+    transition: color 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+  }
+
+  .player-download:hover {
+    color: var(--gold);
+    border-color: var(--gold);
+    background: rgba(201, 169, 106, 0.08);
+  }
+
+  .embed {
+    margin-bottom: 56px;
+    border: 1px solid rgba(232, 228, 216, 0.1);
+    background: rgba(10, 13, 29, 0.6);
+  }
+
+  h2 {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-weight: 300;
+    font-size: clamp(28px, 4vw, 38px);
+    margin-bottom: 32px;
+    color: var(--ink);
+  }
+
+  .post-body p {
+    color: var(--ink-dim);
+    margin-bottom: 28px;
+  }
+
+  .post-body p.lead {
+    font-size: 22px;
+    color: var(--ink);
+    font-style: italic;
+  }
+
+  .post-body em { font-style: italic; color: var(--gold); }
+
+  .scripture {
+    margin: 40px 0;
+    padding: 28px 0;
+    text-align: center;
+  }
+
+  .scripture p {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 22px;
+    line-height: 1.5;
+    color: var(--ink);
+    margin-bottom: 0 !important;
+  }
+
+  footer {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 60px 24px 50px;
+  }
+
+  footer .site {
+    font-size: 13px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+</style>
+</head>
+<body>
+
+<canvas id="sky"></canvas>
+
+<article class="wrap">
+  <a class="back" href="/">← The Seers Connect</a>
+
+  <p class="post-date">June 17, 2023 · Written in deliverance</p>
+  <h1>Take This Cup</h1>
+
+  <div class="player">
+    <audio controls preload="metadata" src="/audio/take-this-cup.mp3">
+      Your browser does not support embedded audio.
+    </audio>
+    <a class="player-download" href="/audio/take-this-cup.mp3" download="Take This Cup — Tenisha Miller.mp3">Download song</a>
+  </div>
+
+  <h2>The Story</h2>
+
+  <div class="post-body">
+    <p class="lead">
+      This song was written around June 17, 2023, when I was in the beginning stages of
+      going through my deliverance. It was a very tough time — extremely tough.
+      The war was real. And the war in my marriage was also real.
+    </p>
+
+    <p>
+      I was browsing a website looking for gospel music tracks, and I got this
+      beat. I wrote this song from beginning to end by Holy Spirit power. I was
+      under the influence of the Holy Spirit when I wrote it. All the lyrics
+      just came to me from the Holy Spirit as I was singing. I didn&rsquo;t
+      practice. I didn&rsquo;t write the lyrics down or anything. I was pouring
+      out my heart to God.
+    </p>
+
+    <div class="scripture">
+      <p>&ldquo;I&rsquo;ll take the cup of suffering, just like the King.&rdquo;</p>
+    </div>
+
+    <p>
+      In this song, you will hear an extremely important lyric — those words
+      right there. God told me and reminded me of this lyric, because after I
+      said that and after I wrote this song, the next month my husband Norman
+      and I had to leave our apartment. We were not kicked out — we had to leave
+      because we were not able to afford the rent.
+    </p>
+
+    <p>
+      We left from New Bern, North Carolina, and we went to Raleigh, North
+      Carolina — an hour away — so that I could look for work, because I
+      wasn&rsquo;t able to find work in New Bern. After staying in an Airbnb for
+      about a week, we moved into a home. And there, the greatest training and
+      lesson that my husband and I have ever experienced took place.
+    </p>
+
+    <p>
+      But God told me later on — about maybe two years later — that I gave Him
+      permission. Because I offered to take the cup of suffering like His Son
+      did. I made a joke with God. I said I didn&rsquo;t even know what I was
+      saying. And I had no clue when I said that lyric what I was actually
+      saying. I was just fresh, going through and walking with God, walking in
+      repentance, and dealing with all the demonic agreements that were in my
+      bloodline.
+    </p>
+
+    <p>
+      When I said that, it gave Him permission. It gave Him authority. It gave
+      Him a legal right to do a great and mighty work in my life. It was
+      totally brutal — but it was necessary, so that I could be at the base of
+      His throne, at His feet, so I could jump in His lap if I wanted to, so
+      that I could jump on His shoulders. And I don&rsquo;t have to wait until
+      I get into heaven. I could do it right now — by faith.
+    </p>
+  </div>
+</article>
+
+<footer>
+  <p class="site">theseersconnect.com</p>
+</footer>
+
+<script>
+  const sky = document.getElementById("sky");
+  const ctx = sky.getContext("2d");
+  let stars = [];
+
+  function buildSky() {
+    sky.width = innerWidth * devicePixelRatio;
+    sky.height = innerHeight * devicePixelRatio;
+    ctx.setTransform(devicePixelRatio, 0, 0, devicePixelRatio, 0, 0);
+    const count = Math.floor((innerWidth * innerHeight) / 9000);
+    stars = Array.from({ length: count }, () => ({
+      x: Math.random() * innerWidth,
+      y: Math.random() * innerHeight,
+      r: Math.random() * 1.1 + 0.2,
+      base: Math.random() * 0.5 + 0.15,
+      phase: Math.random() * Math.PI * 2,
+      speed: Math.random() * 0.4 + 0.1,
+    }));
+  }
+
+  function drawSky(t) {
+    ctx.clearRect(0, 0, innerWidth, innerHeight);
+    for (const s of stars) {
+      const twinkle = s.base + Math.sin(t * 0.0006 * s.speed + s.phase) * 0.14;
+      ctx.globalAlpha = Math.max(0.05, twinkle);
+      ctx.fillStyle = "#e8e4d8";
+      ctx.beginPath();
+      ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+      ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+    requestAnimationFrame(drawSky);
+  }
+
+  buildSky();
+  addEventListener("resize", buildSky);
+  requestAnimationFrame(drawSky);
+</script>
+
+</body>
+</html>
